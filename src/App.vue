@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <QRCodeGen />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import QRCodeGen from './components/QRCodeGen.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    QRCodeGen,
   },
 };
 </script>
@@ -22,7 +21,19 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #1c1d1f;
+  width: 100%;
+  height: 100vh;
+  background: url("./assets/images/bg.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 </style>

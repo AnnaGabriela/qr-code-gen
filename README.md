@@ -1,4 +1,8 @@
-# qrcode-gen
+# QR Code Generator
+
+A simple qr code generator made with Vue.js. You can enter a URL (or any text) to generate the QR Code and download as png.
+
+![](demo.gif)
 
 ## Project setup
 ```
